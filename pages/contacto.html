@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <title>Pre-entrega 02 / Oscar Jetier</title>
+</head>
+
+<body>
+    <header>
+        <div class="container-oj ">
+            <nav class="navbar  navbar-expand-lg navbar-light row justify-content-between w-100">
+                <div class=" col-lg-4">
+                    <img class="logo" src="../assets/img/ivonne-logo-2018.png" alt="">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse"
+                        data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
+
+
+
+                <div class="collapse navbar-collapse col-lg-4" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <ul>
+                            <li><a class="nav-item nav-link" href="../index.html">Inicio</a></li>
+                            <li><a class="nav-item nav-link " href="./nosotros.html">Historia</a>
+                            </li>
+                            <li><a class="nav-item nav-link" href="./productos.html">Productos</a></li>
+                            <li><a class="nav-item nav-link " href="./cursos.html">Cursos</a></li>
+                            <li><a class="nav-item nav-link active" href="./contacto.html">Contacto</a></li>
+                    </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="sub hero">
+            <div class="overlay"></div>
+            <article class="container-oj">
+                <div class="boxtext">
+                    <h2 class="subtitulo">Escribenos</h2>
+                </div>
+            </article>
+        </section>
+
+
+
+        <section class="sec-cont container-oj ">
+            <div class="row justify-content-between text-white">
+                <div class="col-lg-4">
+                    <h3>Un poco de nuestra Historia</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, fugiat! Nobis non laboriosam
+                        beatae dolor libero sed quae. Molestiae eligendi blanditiis rem praesentium. Non maxime
+                        voluptatem aspernatur? Beatae, dolor ab!</p>
+                    <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                </div>
+                <div class="formulario col-lg-6">
+                    <form action="/procesar_formulario" method="post">
+                        <label for="asunto"></label>
+                        <input placeholder="Asunto" type="text" id="asunto" name="asunto" required>
+
+                        <br>
+
+                        <label for="nombre"></label>
+                        <input placeholder="Nombre y Apellido" type="text" id="nombre" name="nombre" required>
+
+                        <br>
+
+                        <label for="mail"></label>
+                        <input placeholder="Ingresa tu mail" type="email" id="mail" name="mail" required>
+
+                        <br>
+
+                        <label for="telefono"></label>
+                        <input placeholder="Telefono" type="tel" id="telefono" name="telefono">
+
+                        <br>
+
+                        <label for="servicio"></label>
+                        <select id="servicio" name="servicio">
+                            <option value="soporte">Tortas de Bodas</option>
+                            <option value="consultoria">Tortas Tématicas</option>
+                            <option value="otros">Otros</option>
+                        </select>
+
+                        <br>
+
+                        <label for="mensaje"></label>
+                        <textarea placeholder="Escribe tu mensaje..." id="mensaje" name="mensaje" rows="4"
+                            required></textarea>
+
+                        <br>
+
+                        <input class="btn" type="submit" value="Enviar">
+                    </form>
+                </div>
+            </div>
+        </section>
+
+
+       
+
+
+
+        <section class="sec-cont sec-action">
+            <article class="container-oj ">
+                <div class="row">
+                    <div class="boxtext col-lg-6">
+                        <h3>Esto es un llamado de acción</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div class="cont-btns col-lg-6">
+                        <div class="btn-action">
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            <button type="button" class="btn btn-primary btn-lg">Large button</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+
+    </main>
+    <footer>
+        <div class="container-oj ">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat nulla rerum deserunt dicta vitae
+                sequi eum eaque.</p>
+            <div class="rsfooter">
+                <ul>
+                    <li><a href="#">ing</a></li>
+                    <li><a href="#">Fb</a></li>
+                    <li><a href="#">Yt</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+    </footer>
+
+
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/jquery-slim.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</body>
+
+</html>
